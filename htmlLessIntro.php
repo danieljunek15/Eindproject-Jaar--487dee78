@@ -19,7 +19,11 @@
     </div>
     
     <div class="buttonFlex">
+<<<<<<< HEAD
         <button onclick="window.location.href ='home.php'" ><< Home page</button>
+=======
+        <button><< Home page</button>
+>>>>>>> 76786cc10d4b2645938626bcad845d75a5803bc4
         <button>Begin >></button> 
     </div>
 
