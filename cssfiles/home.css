@@ -1,0 +1,89 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.head {
+    padding: 1px;
+    text-align: center;
+    background: #000563;
+    color: #f5f5f5;
+    font-size: 30px;
+}
+
+.Setup {
+    border-radius: 50%;
+    display: flex;
+    margin-left: 24cm;
+    margin-top: 2cm;
+    width: 100px;
+    height: 100px;
+    background-color: #57BE8E;
+    border-color: #57BE8E;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.html {
+    border-radius: 50%;
+    display: flex;
+    margin-left: 24cm;
+    margin-top: 1.5cm;
+    width: 100px;
+    height: 100px;
+    background-color: #57BE8E;
+    border-color: #57BE8E;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.css {
+    border-radius: 50%;
+    display: flex;
+    margin-left: 28cm;
+    width: 100px;
+    height: 100px;
+    background-color: #57BE8E;
+    border-color: #57BE8E;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.git {
+    border-radius: 50%;
+    display: flex;
+    margin-left: 20cm;
+    width: 100px;
+    height: 100px;
+    background-color: #57BE8E;
+    border-color: #57BE8E;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.wrapper {
+    margin-top: unset;
+}
+
+.php {
+    border-radius: 50%;
+    display: flex;
+    margin-left: 28cm;
+    margin-top: 1.5cm;
+    width: 100px;
+    height: 100px;
+    background-color: #57BE8E;
+    border-color: #57BE8E;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

@@ -3,7 +3,7 @@
 
 <head>
     <title>Bitorial.com</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="cssfiles/home.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -16,7 +16,7 @@
     <button onclick="window.location.href = 'htmlLessIntro.php'" class="html">HTML</button>
     <div class="wrapper">
         <button class="css">CSS</button>
-        <button class="JS">JS</button>
+        <button class="git">JS</button>
     </div>
     <button class="php">PHP</button>
 
