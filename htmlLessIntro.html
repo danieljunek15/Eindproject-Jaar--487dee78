@@ -13,9 +13,10 @@
     </header>
     <div class="main">
         <h1>HTML</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam qui totam fugit tempore alias voluptate veritatis deserunt corrupti eveniet consequatur, debitis dignissimos non aliquid quia ipsa nemo saepe officia!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam qui totam fugit tempore alias voluptate veritatis deserunt corrupti eveniet consequatur, debitis dignissimos non aliquid quia ipsa nemo saepe officia!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam qui totam fugit tempore alias voluptate veritatis deserunt corrupti eveniet consequatur, debitis dignissimos non aliquid quia ipsa nemo saepe officia!</p>
+        <p>Een html bestand begint altijd met een declaratie van het type bestand. Dit gebeurt door aan te geven wat de "<a href="https://developer.mozilla.org/en-US/docs/Glossary/Doctype">doctype</a>" is. Dit zorgt ervoor dat de browser weet dat het bestand volgens de HTML regels gelezen moet worden.<br>
+        </p>
+        <p>De inhoud van een HTML bestand wordt omschreven in <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Anatomy_of_an_HTML_element">elementen</a>. Ieder element bestaat uit een openend en sluitend stuk tekst, de zogenoemde 'opening tag' en 'closing tag', bijvoorbeeld <code>< p ></code> en <code>< /p ></code>. Daar tussen staat de inhoud van het element.</p>
+       <p>Een HTML bestand is altijd <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Anatomy_of_an_HTML_document">gestructureerd</a> in 2 delen. Een HEAD en een BODY. In het head element komt informatie over het document. In de body komt de informatie die weergegeven wordt op de website.</p>
     </div>
     
     <div class="buttonFlex">
