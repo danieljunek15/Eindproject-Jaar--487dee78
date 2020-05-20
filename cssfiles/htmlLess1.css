@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    height: 935px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,9 +40,34 @@ button {
     justify-content: space-between;
     right: 500px;
     font-family: 'IBM Plex Mono', monospace;
+    cursor: pointer;
+
 
 }
 
 button:hover {
     background-color: #4bb34c;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+textarea {
+    width: 600px;
+}
+
+#Output {
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.buttonFlex {
+    margin-top: 20px;
 }
