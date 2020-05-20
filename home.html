@@ -3,7 +3,8 @@
 
 <head>
     <title>Bitorial.com</title>
-    <link rel="stylesheet" href="cssfiles/home.css">
+    <link rel="stylesheet" href="cssfiles/style.index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -11,16 +12,40 @@
 <body>
     <div class="head">
         <h1>Bitorial</h1>
+
     </div>
-    <button class="Setup">Setup</button>
-    <button onclick="window.location.href = 'htmlLessIntro.html'" class="html">HTML</button>
-    <div class="wrapper">
+        <button class="Setup">Setup</button>
+        <form action="htmlLessIntro.html">
+            <button class="html">HTML</button>
+        </form>
+    <div class="gitcss">
+        <button class="git">GIT</button>
         <button class="css">CSS</button>
-        <button class="git">JS</button>
     </div>
     <button class="php">PHP</button>
+    <form method="get" action="https://www.bit-academy.nl/">
+        <button class="bit">Inschrijven</button>
+    </form>
+    <!-- The Modal -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Welkom bij Bitorial</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow
+                        it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p>
 
-
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jsfiles/script.index.js"></script>
 </body>
 
 </html>
