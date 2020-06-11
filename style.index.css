@@ -6,110 +6,9 @@ body {
 .head {
     padding: 1px;
     text-align: center;
-    background: #000563;
+    background: #000066, #000000;
     color: #f5f5f5;
     font-size: 30px;
-}
-
-.Setup {
-    border-radius: 50%;
-    display: flex;
-    width: 100px;
-    height: 100px;
-    background-color: #57BE8E;
-    border-color: #57BE8E;
-    color: #f5f5f5;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.3s ease 0s;
-    margin-left: 47%;
-    margin-top: 1.6%;
-}
-
-.html {
-    border-radius: 50%;
-    display: flex;
-    width: 100px;
-    height: 100px;
-    background-color: #57BE8E;
-    border-color: #57BE8E;
-    color: #f5f5f5;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.3s ease 0s;
-    margin-left: 47%;
-    margin-top: 0.1%;
-}
-
-.css {
-    border-radius: 50%;
-    display: flex;
-    width: 100px;
-    height: 100px;
-    background-color: #57BE8E;
-    border-color: #57BE8E;
-    color: #f5f5f5;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.3s ease 0s;
-    margin-left: 52%;
-    margin-top: 0.1%;
-}
-
-.git {
-    border-radius: 50%;
-    display: flex;
-    width: 100px;
-    height: 100px;
-    background-color: #57BE8E;
-    border-color: #57BE8E;
-    color: #f5f5f5;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.3s ease 0s;
-}
-
-.gitcss {
-    display: flex;
-    justify-content: center;
-}
-
-.php {
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    background-color: #57BE8E;
-    border-color: #57BE8E;
-    color: #f5f5f5;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.3s ease 0s;
-    margin-left: 76%;
-    margin-top: 0.1%;
-}
-
-.bit {
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    background-color: #57BE8E;
-    border-color: #57BE8E;
-    color: #f5f5f5;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.3s ease 0s;
-    margin-left: 76%;
-    margin-top: 0.1%;
 }
 
 .modal {
@@ -160,7 +59,7 @@ body {
 
 #linethree {
     margin-top: 0.1%;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 #linefour {
@@ -171,4 +70,211 @@ body {
 #linefive {
     margin-top: 0.1%;
     margin-left: 78.6%;
+}
+
+.setup {
+    width: 250px;
+    height: 300px;
+    padding: 30px;
+    border: 5px solid white;
+}
+
+.html {
+    width: 250px;
+    height: 300px;
+    padding: 30px;
+    border: 5px solid white;
+}
+
+.css {
+    width: 250px;
+    height: 300px;
+    padding: 30px;
+    border: 5px solid white;
+}
+
+.git {
+    width: 250px;
+    height: 300px;
+    padding: 30px;
+    border: 5px solid white;
+}
+
+.php {
+    width: 250px;
+    height: 300px;
+    padding: 30px;
+    border: 5px solid white;
+}
+
+.js {
+    width: 250px;
+    height: 300px;
+    padding: 30px;
+    border: 5px solid white;
+}
+
+.bit {
+    width: 250px;
+    height: 300px;
+    padding: 30px;
+    border: 5px solid white;
+}
+
+.button1 {
+    border-radius: 50%;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    margin-left: 2%;
+    margin-top: 1.6%;
+}
+
+.button2 {
+    border-radius: 50%;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    margin-left: 5%;
+    margin-top: 1.6%;
+}
+
+.button3 {
+    border-radius: 50%;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    margin-left: 8%;
+    margin-top: 1.6%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.quiz {
+    background-color: #5bc0de;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.quiz-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50%;
+}
+
+.join {
+    background-color: #5bc0de;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.join-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 110%;
+}
+
+html body {
+    background: linear-gradient(-150deg, #000066, #000000);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 7s ease infinite;
+    -o-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 75%
+    }
+    50% {
+        background-position: 100% 20%
+    }
+    100% {
+        background-position: 0% 20%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-o-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }

@@ -5,6 +5,7 @@
     <title>Bitorial.com</title>
     <link rel="stylesheet" href="style.index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -12,45 +13,133 @@
 <body>
     <div class="head">
         <h1>Bitorial</h1>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Introductie</button>
 
     </div>
-    <div>
-        <button class="Setup">Setup</button>
-        <canvas id="lineone"></canvas>
+    <div class="container">
+        <div class="setup">
 
-        <button class="html">HTML</button>
-        <canvas id="linetwo"></canvas>
-        <canvas id="linethree"></canvas>
-        <div class="gitcss">
-            <button class="git">GIT</button>
-            <button class="css">CSS</button>
+            <div class="text">
+                <h3>Setup</h3>
+            </div>
+            <div class="flex">
+                <button class="button1">Les 1</button>
+                <button class="button2">Les 2</button>
+                <button class="button3">Les 3</button>
+            </div>
+            <div class="quiz-flex">
+                <button class="quiz">QUIZ</button>
+            </div>
+
         </div>
-        <canvas id="linefour"></canvas>
-        <button class="php">PHP</button>
-        <canvas id="linefive"></canvas>
-        <form method="get" action="https://www.bit-academy.nl/">
-            <button class="bit">Inschrijven</button>
-        </form>
+        <div class="html">
+
+            <div class="text">
+                <h3>HTML</h3>
+            </div>
+            <div class="flex">
+                <button class="button1">Les 1</button>
+                <button class="button2">Les 2</button>
+                <button class="button3">Les 3</button>
+            </div>
+            <div class="quiz-flex">
+                <button class="quiz">QUIZ</button>
+            </div>
+        </div>
+        <div class="css">
+
+            <div class="text">
+                <h3>CSS</h3>
+            </div>
+            <div class="flex">
+                <button class="button1">Les 1</button>
+                <button class="button2">Les 2</button>
+                <button class="button3">Les 3</button>
+            </div>
+            <div class="quiz-flex">
+                <button class="quiz">QUIZ</button>
+            </div>
+        </div>
+        <div class="git">
+
+            <div class="text">
+                <h3>GIT</h3>
+            </div>
+            <div class="flex">
+                <button class="button1">Les 1</button>
+                <button class="button2">Les 2</button>
+                <button class="button3">Les 3</button>
+            </div>
+            <div class="quiz-flex">
+                <button class="quiz">QUIZ</button>
+            </div>
+        </div>
+        <div class="php">
+
+            <div class="text">
+                <h3>PHP</h3>
+            </div>
+            <div class="flex">
+                <button class="button1">Les 1</button>
+                <button class="button2">Les 2</button>
+                <button class="button3">Les 3</button>
+            </div>
+            <div class="quiz-flex">
+                <button class="quiz">QUIZ</button>
+            </div>
+        </div>
+        <div class="js">
+
+            <div class="text">
+                <h3>Javascript</h3>
+            </div>
+            <div class="flex">
+                <button class="button1">Les 1</button>
+                <button class="button2">Les 2</button>
+                <button class="button3">Les 3</button>
+            </div>
+            <div class="quiz-flex">
+                <button class="quiz">QUIZ</button>
+            </div>
+        </div>
+        <div class="bit">
+
+            <div class="text">
+                <h3>Sluit je aan</h3>
+            </div>
+            <div class="join-flex">
+                <button class="join">Inschrijven</button>
+            </div>
+
+        </div>
     </div>
     <!-- The Modal -->
-    <div id="myModal" class="modal fade">
+    <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
+
+            <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">Welkom bij Bitorial</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow
-                        it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p>
-
+                    <p>Bij ons neem je een kijkje in de wereld van een programeur, je gaat verschillende opdrachten maken die jou de bassis kennis geven van 't programeren als je dit nou wilt blijven doen sluit je dan aan bij de Bit-Academy. </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
+
         </div>
     </div>
+
+    </div>
+
+
     <!--Modal-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="script.index.js"></script>
 </body>
 
