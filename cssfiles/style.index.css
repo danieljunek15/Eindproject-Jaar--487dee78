@@ -76,6 +76,7 @@ body {
     width: 250px;
     height: 300px;
     padding: 30px;
+    border-radius: 25px;
     border: 5px solid white;
 }
 
@@ -83,6 +84,7 @@ body {
     width: 250px;
     height: 300px;
     padding: 30px;
+    border-radius: 25px;
     border: 5px solid white;
 }
 
@@ -90,6 +92,7 @@ body {
     width: 250px;
     height: 300px;
     padding: 30px;
+    border-radius: 25px;
     border: 5px solid white;
 }
 
@@ -97,6 +100,7 @@ body {
     width: 250px;
     height: 300px;
     padding: 30px;
+    border-radius: 25px;
     border: 5px solid white;
 }
 
@@ -104,6 +108,7 @@ body {
     width: 250px;
     height: 300px;
     padding: 30px;
+    border-radius: 25px;
     border: 5px solid white;
 }
 
@@ -111,6 +116,7 @@ body {
     width: 250px;
     height: 300px;
     padding: 30px;
+    border-radius: 25px;
     border: 5px solid white;
 }
 
@@ -118,6 +124,7 @@ body {
     width: 250px;
     height: 300px;
     padding: 30px;
+    border-radius: 25px;
     border: 5px solid white;
 }
 
@@ -182,6 +189,7 @@ body {
 .container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 10%;
 }
 
@@ -218,6 +226,25 @@ body {
 }
 
 .join-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90%;
+}
+
+.start {
+    background-color: #5bc0de;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.start-flex {
     display: flex;
     justify-content: space-around;
     margin-top: 90%;
