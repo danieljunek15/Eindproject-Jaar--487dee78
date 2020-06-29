@@ -1,0 +1,59 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="cssfiles/htmlLessQuiz.css" rel="stylesheet">
+    <title>HTML Quiz!!</title>
+</head>
+<body>
+<header>
+    <img alt="" src="fotofiles/bitacademy logo.png">
+
+</header>
+<main>
+    <h1 class="titleQuiz">HTML Quiz</h1>
+    <div class="scoreboard">
+        <!-- <h3>score board test</h3> -->
+    </div>
+    <div class="container">
+        <div>
+            <h2>Vraag 1.</h2>
+            <h3>Hoe open je een html pagina?</h3>
+            <input id="answer1" name="answer" type="radio">
+            <label for="answer1">&lt;DOCTYPE html&gt;</label><br>
+            <input id="answer2" name="answer" type="radio">
+            <label for="answer2">&lt;!DOCTYPE html&gt;</label><br>
+            <input id="answer3" name="answer" type="radio">
+            <label for="answer3">&lt;!DOCTYPE&lt;</label><br>
+            <input id="answer4" name="answer" type="radio">
+            <label for="answer4">&lt;Doctype&lt;</label>
+        </div>
+        <br>
+        <div>
+            <h2>Vraag 2.</h2>
+            <h3>Hoe sluit je een <"h1"> element af?</h3>
+            <input class="vraag2Input" id="vraag2Input" placeholder="type hier je antwoord" type="text">
+        </div>
+
+        <div>
+            <h2>Vraag 3.</h2>
+            <h3>Wat doet een <"li"> element?</h3>
+            <input id="answerV31" name="answerV3" type="radio">
+            <label for="answerV31">Veranderd de fontsize.</label><br>
+            <input id="answerV32" name="answerV3" type="radio">
+            <label for="answerV32">Veranderd de letter type.</label><br>
+            <input id="answerV33" name="answerV3" type="radio">
+            <label for="answerV33">Zet de inhoud onder elkaar.</label><br>
+            <input id="answerV34" name="answerV3" type="radio">
+            <label for="answerV34">Zet een punt voor de inhoud.</label><br>
+        </div>
+    </div>
+
+    <div class="knop">
+        <button onclick="Conteroleer()" type="submit">submit je andwoord</button>
+    </div>
+</main>
+</body>
+</html>
+<script src="jsfiles/htmlLessQuiz.js"></script>
