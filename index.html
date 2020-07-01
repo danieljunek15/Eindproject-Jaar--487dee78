@@ -2,113 +2,120 @@
 <html>
 
 <head>
-    <title>Bitorial.com</title>
-    <link rel="stylesheet" href="style.index.css">
+    <title>Bittorial</title>
+    <link href="style.index.css" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
 
 <body>
-    <div class="head">
-        <h1>Bitorial</h1>
-        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Introductie</button>
+<div class="head">
+    <h1>Bittorial</h1>
+    <button class="btn btn-info btn-lg" data-target="#myModal" data-toggle="modal" type="button">Open Introductie
+    </button>
+
+</div>
+<div class="container">
+    <div class="setup">
+
+        <div class="text">
+            <h3>Setup</h3>
+        </div>
+        <div class="start-flex">
+            <button class="start" onclick="window.location.href='setup.html';">Start</button>
+        </div>
 
     </div>
-    <div class="container">
-        <div class="setup">
+    <div class="html">
 
-            <div class="text">
-                <h3>Setup</h3>
-            </div>
-            <div class="start-flex">
-                <button class="start">Start</button>
-            </div>
-
+        <div class="text">
+            <h3>HTML</h3>
         </div>
-        <div class="html">
-
-            <div class="text">
-                <h3>HTML</h3>
-            </div>
-            <div class="flex">
-                <button class="button1">Les 1</button>
-                <button class="button2">Les 2</button>
-                <button class="button3">Les 3</button>
-            </div>
-            <div class="quiz-flex">
-                <button class="quiz">QUIZ</button>
-            </div>
+        <div class="flex">
+            <button class="button1" onclick="window.location.href='htmlLesIntro.html'">Intro</button>
+            <button class="button1" onclick="window.location.href='htmlLes1.html';">Les 1</button>
+            <button class="button2" onclick="window.location.href='htmlLes2.html';">Les 2</button>
+            <button class="button3" onclick="window.location.href='htmlLes3.html';">Les 3</button>
         </div>
-        <div class="css">
-
-            <div class="text">
-                <h3>CSS</h3>
-            </div>
-            <div class="flex">
-                <button class="button1">Les 1</button>
-                <button class="button2">Les 2</button>
-                <button class="button3">Les 3</button>
-            </div>
-            <div class="quiz-flex">
-                <button class="quiz">QUIZ</button>
-            </div>
-        </div>
-        <div class="js">
-
-            <div class="text">
-                <h3>Javascript</h3>
-            </div>
-            <div class="flex">
-                <button class="button1">Les 1</button>
-                <button class="button2">Les 2</button>
-                <button class="button3">Les 3</button>
-            </div>
-            <div class="quiz-flex">
-                <button class="quiz">QUIZ</button>
-            </div>
-        </div>
-        <div class="bit">
-
-            <div class="text">
-                <h3>Sluit je aan</h3>
-            </div>
-            <div class="join-flex">
-                <form method="get" action="https://www.rocva.nl/MBO-onderwijs/Sectoren/ICT/Software-Developer-op-de-Bit-Academy">
-                    <button class="join">Inschrijven</button>
-                </form>
-
-            </div>
-
+        <div class="quiz-flex">
+            <button class="quiz" onclick="window.location.href='htmlLesQuiz.html';">QUIZ</button>
         </div>
     </div>
-    <!-- The Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
+    <div class="css">
 
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Welkom bij Bitorial</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Bij ons neem je een kijkje in de wereld van een programeur, je gaat verschillende opdrachten maken die jou de bassis kennis geven van 't programeren als je dit nou wilt blijven doen sluit je dan aan bij de Bit-Academy. </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-
+        <div class="text">
+            <h3>CSS</h3>
+        </div>
+        <div class="flex">
+            <button class="button1" onclick="window.location.href='cssLesIntro.html'">Intro</button>
+            <button class="button1" onclick="window.location.href='cssLes1.html';">Les 1</button>
+            <button class="button2" onclick="window.location.href='cssLes2.html';">Les 2</button>
+            <button class="button3" onclick="window.location.href='htmlLes3.html';">Les 3</button>
+        </div>
+        <div class="quiz-flex">
+            <button class="quiz" onclick="window.location.href='cssLesQuiz.html';">QUIZ</button>
         </div>
     </div>
+    <div class="js">
+
+        <div class="text">
+            <h3>Javascript</h3>
+        </div>
+        <div class="flex">
+            <button class="button1" onclick="window.location.href='jsLesIntro.html';">Intro</button>
+            <button class="button1" onclick="window.location.href='jsLes1.html';">Les 1</button>
+            <button class="button2" onclick="window.location.href='jsLes2.html';">Les 2</button>
+            <button class="button3" onclick="window.location.href='jsLes3.html';">Les 3</button>
+        </div>
+        <div class="quiz-flex">
+            <button class="quiz" onclick="window.location.href='jsLesQuiz.html';">QUIZ</button>
+        </div>
+    </div>
+    <div class="bit">
+
+        <div class="text">
+            <h3>Sluit je aan</h3>
+        </div>
+        <div class="join-flex">
+            <form action="https://www.rocva.nl/MBO-onderwijs/Sectoren/ICT/Software-Developer-op-de-Bit-Academy"
+                  method="get" target="_blank">
+                <button class="join">Inschrijven</button>
+            </form>
+
+        </div>
 
     </div>
+</div>
+<!-- The Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal" type="button">&times;</button>
+                <h4 class="modal-title">Welkom bij Bitorial</h4>
+            </div>
+            <div class="modal-body">
+                <p>Bij ons neem je een kijkje in de wereld van een programeur, je gaat verschillende opdrachten maken
+                    die jou de bassis kennis geven van 't programeren als je dit nou wilt blijven doen sluit je dan aan
+                    bij de Bit-Academy. </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
 
 
-    <!--Modal-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="script.index.js"></script>
+<!--Modal-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="script.index.js" type="text/javascript"></script>
 </body>
 
 </html>
