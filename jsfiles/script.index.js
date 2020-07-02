@@ -54,17 +54,22 @@ let lessen = localStorage.getItem('lessen');
 if (lessen === null) {
 
     lessen = defaultLessen;
-    localStorage.setItem( "lessen", JSON.stringify(lessen));
+    localStorage.setItem("lessen", JSON.stringify(lessen));
 } else {
     lessen = JSON.parse(lessen);
 }
 
 
-
 lessen.forEach(les => {
     const button = document.getElementById(les.id);
     button.disabled = les.disabled;
-  })
+})
 
+function checkLessen(id) {
 
-// const button = document.getElementById("jsLes3");  
+    lessen.forEach(les => {
+        if (les.id === id) {
+            les.disabled = false;
+        }
+    })
+}
