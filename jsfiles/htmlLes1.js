@@ -14,7 +14,7 @@ function checkLessen(id) {
             les.disabled = false;
             array[index] = les;
             localStorage.setItem("lessen", JSON.stringify(lessen));
-
+            
         }
     })
 
