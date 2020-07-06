@@ -3,17 +3,17 @@ function runCode() {
     document.getElementById('Output').innerHTML = codeInput;
 }
 
-let lessen1 = localStorage.getItem('lessen');
+let lessen = localStorage.getItem('lessen');
 
-lessen1 = JSON.parse(lessen);
+lessen = JSON.parse(lessen);
 
 function checkLessen(id) {
 
-    lessen1.forEach((les, index, array) => {
+    lessen.forEach((les, index, array) => {
         if (les.id === id) {
             les.disabled = false;
             array[index] = les;
-            localStorage.setItem("lessen", JSON.stringify(lessen1));
+            localStorage.setItem("lessen", JSON.stringify(lessen));
 
         }
     })
