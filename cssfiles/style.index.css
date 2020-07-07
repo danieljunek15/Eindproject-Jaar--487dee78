@@ -234,7 +234,7 @@ header {
 .join-flex {
     display: flex;
     justify-content: space-around;
-    margin-top: 90%;
+    margin-top: 80%;
 }
 
 .start {
@@ -253,7 +253,7 @@ header {
 .start-flex {
     display: flex;
     justify-content: space-around;
-    margin-top: 90%;
+    margin-top: 80%;
 }
 
 html body {
